@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    background: url('hatterkep.jpg') center/cover fixed; /* Menő háttérkép */
+    color: #fff; /* Fehér szöveg az olvashatóság érdekében */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Átlátszó fehér háttér a kártyákhoz */
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Kártya nagyobbra váltása hover esetén */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Átlátszó fekete háttér a navbarhoz */
+}
+
+.navbar-brand {
+    color: #fff !important; /* Fehér szöveg a navbar brand-hez */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Átlátszó fekete háttér a lábléchez */
+    padding: 10px;
+}
